@@ -1,7 +1,7 @@
-baseURL = "http://aliware-os.github.io/sentinel2"
+baseURL = "https://example.org/"
 languageCode = "en-us"
 title = "Navigator | Responsive Multipurpose Bootstrap Hugo Template"
-theme = "navigator"
+theme = "navigator-hugo"
 
 # Build robots.txt file
 enableRobotsTXT = true
@@ -115,7 +115,7 @@ DefaultContentLanguage = "en"
     # Hero Area Section
     [Languages.en.params.hero]
         enable  = true
-        heading = "ENGLISH 欢迎加入阿里中间件"
+        heading = "ENGLISH We love to make brands grow"
         description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quo dolor est incidunt suscipit minima, alias numquam voluptatum rerum porro. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore at laboriosam unde repellat id expedita quae quisquam libero officia consequatur."
         button  = true
         btnText = "Know More"
