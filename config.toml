@@ -53,7 +53,7 @@ DefaultContentLanguage = "en"
         button  = true
         btnText = "Know More"
         btnURL  = "https://themefisher.com/"
-        videoThumb = "images/slider/video-player-thumb.jpg"
+        videoThumb = ""
         videoURL   = "https://www.youtube.com/embed/g3-VxLQO7do"
 
     # About 2 Section
@@ -120,8 +120,8 @@ DefaultContentLanguage = "en"
         button  = true
         btnText = "Know More"
         btnURL  = "https://themefisher.com/"
-        videoThumb = "images/slider/video-player-thumb.jpg"
-        videoURL   = "https://www.youtube.com/embed/g3-VxLQO7do"
+        videoThumb = ""
+        videoURL   = ""
 
     # About 2 Section
     [Languages.en.params.aboutSm]
