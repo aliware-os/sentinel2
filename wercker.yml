@@ -20,7 +20,9 @@ build:
     # Read more about steps on our dev center:
     # https://devcenter.wercker.com/development/steps/
   steps:
-    - jackrab/hugo-build@2.2.0:
+    - install-packages:
+        packages: git ssh-client
+    - arjen/hugo-build@2.5.0:
         version: "0.48"
         theme: navigator
         flags: --buildDrafts=true
